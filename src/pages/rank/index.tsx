@@ -4,7 +4,7 @@ import { DataGrid, GridColDef, GridValueGetterParams } from '@material-ui/data-g
 const columns: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 100 },
   {
-    field: 'firstName',
+    field: 'firstNames',
     headerName: 'First name',
     width: 150,
     editable: true,
